@@ -4,6 +4,13 @@ Webcam capture &amp; exposure using RTMP
 ## Purpose
 This container captures from home webcams and exposes as RTMP, HLS and DASH
 
+## Install Docker and Docker-compose
+```
+sudo apt install docker docker.io docker-compose
+sudo usermod -aG docker pi
+```
+Then log out and back in again.
+
 ## Build
 You can build the container as follows. You can replace the value of the '-t' option with any Docker-compatible tag you like
 ```
